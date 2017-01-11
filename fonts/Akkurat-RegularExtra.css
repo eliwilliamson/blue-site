@@ -1,0 +1,12 @@
+/* Webfont: Akkurat-RegularExtra */@font-face {
+    font-family: 'AkkuratExpra';
+    src: url('Akkurat-RegularExtra.eot'); /* IE9 Compat Modes */
+    src: url('Akkurat-RegularExtra.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Akkurat-RegularExtra.woff') format('woff'), /* Modern Browsers */
+         url('Akkurat-RegularExtra.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Akkurat-RegularExtra.svg#Akkurat-RegularExtra') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

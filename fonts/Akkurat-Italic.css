@@ -1,0 +1,12 @@
+/* Webfont: Akkurat-Italic */@font-face {
+    font-family: 'Akkurat';
+    src: url('Akkurat-Italic.eot'); /* IE9 Compat Modes */
+    src: url('Akkurat-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Akkurat-Italic.woff') format('woff'), /* Modern Browsers */
+         url('Akkurat-Italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Akkurat-Italic.svg#Akkurat-Italic') format('svg'); /* Legacy iOS */
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

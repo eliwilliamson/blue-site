@@ -1,0 +1,12 @@
+/* Webfont: Akkurat-BoldItalic */@font-face {
+    font-family: 'Akkurat';
+    src: url('Akkurat-BoldItalic.eot'); /* IE9 Compat Modes */
+    src: url('Akkurat-BoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Akkurat-BoldItalic.woff') format('woff'), /* Modern Browsers */
+         url('Akkurat-BoldItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Akkurat-BoldItalic.svg#Akkurat-BoldItalic') format('svg'); /* Legacy iOS */
+    font-style: italic;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+

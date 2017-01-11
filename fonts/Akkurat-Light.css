@@ -1,0 +1,12 @@
+/* Webfont: Akkurat-Light */@font-face {
+    font-family: 'AkkuratLight';
+    src: url('Akkurat-Light.eot'); /* IE9 Compat Modes */
+    src: url('Akkurat-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Akkurat-Light.woff') format('woff'), /* Modern Browsers */
+         url('Akkurat-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Akkurat-Light.svg#Akkurat-Light') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

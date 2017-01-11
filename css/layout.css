@@ -1,0 +1,208 @@
+
+
+/* Container 
+------------------------------------------------------------------------ */
+
+.container {
+	max-width: 1160px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.nav-container {
+	width: 100%;
+	padding-left: 40px;
+	position: relative;
+}
+
+
+/* Grid 
+------------------------------------------------------------------------ */
+
+.grid-2,
+.grid-3,
+.grid-4 {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.grid-2 > div,
+.grid-3 > div,
+.grid-4 > div {
+	margin-top: 40px;
+}
+.grid-2 img,
+.grid-3 img,
+.grid-4 img {
+	max-width: 100%;
+}
+.grid-2 > div:nth-child(-n+2),
+.grid-3 > div:nth-child(-n+3),
+.grid-4 > div:nth-child(-n+4) {
+	margin-top: 0;
+}
+.grid-4 > div {
+	flex-basis: 25%;
+}
+.grid-3 > div {
+	flex-basis: 33.33%;
+}
+.grid-2 > div {
+	flex-basis: 50%;
+}
+
+
+/* Container & Grid Padding 
+------------------------------------------------------------------------ */
+
+.container,
+.grid-2 > div,
+.grid-3 > div,
+.grid-4 > div {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.container.grid-2,
+.container.grid-3,
+.container.grid-4 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+/* Sidebar 
+------------------------------------------------------------------------ */
+
+.flex-sidebar {
+	position: relative;
+}
+.flex-sidebar .content {
+	width: 75%;
+	margin-left: auto;
+}
+.content .grid-3 {
+	justify-content: space-between;
+}
+.content .grid-3 > div {
+	padding: 0;
+	max-width: 210px;
+}
+
+/* Flexbox 
+------------------------------------------------------------------------ */
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
+.flex-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+/* Center Text Inside Center Element 
+------------------------------------------------------------------------ */
+
+.center,
+.center-fixed {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+/* Responsive 
+------------------------------------------------------------------------ */
+
+@media screen and (max-width: $screen-laptop) {
+	.content .grid-3 > div {
+		max-width: 30%;
+	}
+	.grid-4 > div {
+		flex-basis: 33%;
+	}
+	.grid-2 > div,
+	.grid-3 > div,
+	.grid-4 > div,
+	.grid-4 > div:nth-child(4) {
+		margin-top: 40px;
+	}
+	.grid-2 > div:first-child,
+	.grid-3 > div:first-child,
+	.grid-4 > div:first-child {
+		margin-top: 0;
+	}
+}
+@media screen and (max-width: $screen-tablet) {
+	.flex-sidebar .content {
+		margin: auto;
+		max-width: 100%;
+		width: 100% !important;
+	}
+	.content .grid-3 > div {
+		max-width: 45%;
+	}
+	.grid-2 > div {
+		flex-basis: 100%;
+	}
+	.grid-3 > div {
+		flex-basis: 50%;
+	}
+	.grid-2 > div,
+	.grid-2 > div:nth-child(2),
+	.grid-3 > div:nth-child(3) {
+		margin-top: 40px;
+	}
+	.grid-2 > div:first-child,
+	.grid-3 > div:first-child,
+	.grid-4 > div:first-child {
+		margin-top: 0;
+	}
+	.container,
+	.grid-2 > div,
+	.grid-3 > div,
+	.grid-4 > div {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+@media screen and (max-width: $screen-tablet-s) {
+	.grid-4 > div {
+		flex-basis: 50%;
+	}
+	.grid-4 > div:nth-child(3) {
+		margin-top: 40px;
+	}
+}
+@media screen and (max-width: $screen-mobile-l) {
+	.center {
+		text-align: left;
+	}
+	.content .grid-3 > div:first-child {
+		margin-top: 0;
+	}
+	.content .grid-3 > div {
+		max-width: 100%;
+	}
+	.grid-3 > div,
+	.grid-4 > div {
+		flex-basis: 100%;
+	}
+	.grid-2 > div,
+	.grid-3 > div,
+	.grid-4 > div,
+	.grid-3 > div:nth-child(2),
+	.grid-3 > div:nth-child(3),
+	.grid-4 > div:nth-child(2),
+	.grid-4 > div:nth-child(3),
+	.grid-4 > div:nth-child(4) {
+		margin-top: 25px;
+	}
+	.grid-2 > div:first-child,
+	.grid-3 > div:first-child,
+	.grid-4 > div:first-child {
+		margin-top: 0;
+	}
+}

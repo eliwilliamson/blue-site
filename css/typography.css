@@ -1,0 +1,69 @@
+
+
+/* Typography
+------------------------------------------------------------------------ */
+
+body {
+  font-family: "Circular Std", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga", "kern";
+  text-rendering: optimizeLegibility;
+  letter-spacing: -.25px;
+  font-variant-ligatures: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga", "kern";
+  text-rendering: optimizeLegibility; }
+h1 { font-family: 'Circular Std'; font-weight: 200; font-size: 48px; line-height: 1.125;  letter-spacing: -1px; }
+h2 { font-size: 36px; line-height: 1.333; letter-spacing: -1.25px; font-weight: 500; }
+h3 { font-size: 28px; line-height: 1.375;  letter-spacing: -1px; font-weight: 500; }
+h4 { font-size: 24px; line-height: 1.5; letter-spacing: -.67px; font-weight: 500; }
+h5 { font-size: 18px; line-height: 1.5;  letter-spacing: -.25px; font-weight: 400; }
+h6 { font-size: 16px; line-height: 1.75;  letter-spacing: -.25px; }
+
+@media (min-width: 550px) {
+  h1 { font-size: 64px; }
+  h2 { font-size: 36px; }
+  h3 { font-size: 30px; }
+  h4 { font-size: 26px; }
+  h5 { font-size: 18px; }
+  h6 { font-size: 18px; }
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  margin-top: 0;
+  letter-spacing: -.25px; }
+
+b {
+  font-weight: 600; }
+
+.small {
+  font-size: 15px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  margin-top: 0;
+  letter-spacing: -.25px; }
+
+.x-small {
+  font-size: 14px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  margin-top: 0;
+  letter-spacing: -.25px; }
+
+.x-x-small {
+  font-size: 13px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  margin-top: 0;
+  letter-spacing: -.25px; }
+

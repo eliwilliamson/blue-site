@@ -1,0 +1,12 @@
+/* Webfont: CircularStd-Book */@font-face {
+    font-family: 'CircularStdBook';
+    src: url('CircularStd-Book1.eot'); /* IE9 Compat Modes */
+    src: url('CircularStd-Book1.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('CircularStd-Book1.woff') format('woff'), /* Modern Browsers */
+         url('CircularStd-Book1.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('CircularStd-Book1.svg#CircularStd-Book') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
